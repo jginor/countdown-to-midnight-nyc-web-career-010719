@@ -1,12 +1,16 @@
 #write your code here
 
-def countdown(integer)
-  while integer > 0
-  puts integer
-  integer -= 1
+def countdown(number)
+  while number > 0
+  puts "#{number} SECOND(S)!"
+  number -= 1
 end
 
 
-def countdown_with_sleep
-  
+def countdown_with_sleep(number)
+  while number > 0
+  puts "#{number} SECOND(S)!"
+  number -= 1
+  sleep(1)
 end 
+
